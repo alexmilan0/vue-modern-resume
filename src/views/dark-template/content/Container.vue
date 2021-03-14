@@ -5,14 +5,16 @@
   >
     <v-card-text>
       <content-section
-        title="Who am I?"
+        title="¿Quien soy?"
       >
-        I'm a developer born in Iran and founder of <a href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix">Delix.ir</a>, <a href="https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate">Bytegate.ir</a> and <a href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet">Bobet.ir</a> and co-founder of <a href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli">Smo.li</a>.<br>
-        I'm interested and skilled in different topics of Information Technology including programming, web development, and computer and network security.
-      </content-section>
+        Soy Licenciada en Comunicación Social nacida en Venezuela 
+		*/<a href="http://delix.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=delix">Delix.ir</a>, <a href="https://bytegate.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bytegate">Bytegate.ir</a> and <a href="http://bobet.ir/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=bobet">Bobet.ir</a> and co-founder of <a href="https://smo.li/?utm_source=portiflo&utm_medium=link&utm_content=intro&utm_campaign=smoli">Smo.li</a>.<br>/*
+        Desde que empecé a desarrollar mi carrera profesional mi objetivo ha sido centrarme en el área que engloba la comunicación digital y el desarrollo de estrategias para el buen funcionamiento de una marca o empresa..
+		Me desempeñé varios años como Social Media Manager trabajando de la mano del departamento comercial y donde actualmente pertenezco como Account Manager. Soy Creativa, pro- activa, optimista y apasionada. Estoy buscando crecimiento profesional y potenciar mi carrera. 
+	  </content-section>
       <content-section
         v-if="prouds"
-        title="What am I proud of?"
+        title="Algunos de mis Goals"
       >
         <v-layout
           v-for="(proud, i) in prouds"
@@ -119,102 +121,97 @@ export default {
     prouds: [
       {
         icon  : 'mdi-help-rhombus-outline',
-        text  : 'Answered 10M+ questions!',
-        source: '(Bytegate.ir post views)',
+        text  : 'Manejo de clientes internacionales!',
       },
       {
         icon  : 'mdi-library-music',
-        text  : 'Made people enjoy and learn a new language for equivalent of 29+ years (older than myself!)',
-        source: '(Bobet.ir and its channel downloads)',
+        text  : 'No temo a trabajar bajo presión',
       },
       {
         icon  : 'mdi-timer-sand',
-        text  : 'Saved +110 days of time of students, writers and etc!',
-        source: '(Delix.ir service usages)',
+        text  : 'Me adapto rápidamente a los cambios y me manejo bien bajo presión',
       },
       {
         icon  : 'mdi-account-multiple',
-        text  : 'Tried to cover small part of 7 people expenses.',
-        source: '(My awesome colleagues)',
+        text  : 'No le temo a la toma de decisiones',
       },
     ],
     educations: [
       {
-        from       : '2015',
-        to         : '2019 (not finished yet)',
-        title      : 'Bachelor\'s degree, Information Technology',
-        location   : 'Seraj University',
-        description: 'Became a member of University Academic Association of Computer Science',
+        from       : '2010',
+        to         : '2015',
+        title      : 'Licenciada en Comunicación Social',
+        location   : 'Universidad Santa María',
       },
     ],
     skills: [
       {
-        title: 'PHP',
+        title: 'Photoshop',
         icon : 'mdi-language-php',
         value: 95,
       },
       {
-        title: 'JavaScript',
+        title: 'Illustrator',
         icon : 'mdi-language-javascript',
         value: 80,
       },
       {
-        title: 'Laravel Framework',
+        title: 'Indesign',
         icon : 'mdi-laravel',
         value: 90,
       },
       {
-        title: 'Vue.js Framework',
+        title: 'Facebook ads',
         icon : 'mdi-vuejs',
         value: 90,
       },
       { divider: true },
       {
-        title: 'Ubuntu Server',
+        title: 'Instagram',
         icon : 'mdi-ubuntu',
         value: 70,
       },
       {
-        title: 'CentOS Server',
+        title: 'Wordpress',
         icon : 'mdi-linux',
         value: 47,
       },
       {
-        title: 'Web Application Security',
+        title: 'Google Analytics',
         icon : 'mdi-shield-lock',
         value: 80,
       },
       {
-        title: 'Test Driven Development',
+        title: 'Mailchimp',
         icon : 'mdi-test-tube',
         value: 26,
       },
       {
-        title: 'Continuous Integration / Continuous Delivery',
+        title: 'SEO/SEM',
         icon : 'mdi-truck-fast',
         value: 35,
       },
       {
-        title: 'Git',
+        title: 'Ecommerce',
         icon : 'mdi-git',
         value: 67,
       },
       { divider: true },
       {
-        title: 'Hardware Development',
+        title: 'Estrategias digitales',
         icon : 'mdi-chip',
         value: 29,
       },
       {
         title: 'C/C++',
-        icon : 'mdi-language-cpp',
+        icon : 'Metricool',
         value: 38,
       },
       { divider: true },
       {
         title: 'Leadership',
         icon : 'mdi-account-group',
-        value: 68,
+        value: 90,
       },
       {
         title: 'Content Marketing (+340 articles)',

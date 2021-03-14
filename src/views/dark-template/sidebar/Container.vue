@@ -7,10 +7,10 @@
       <avatar />
       <div class="text-sm-center mb-4 mt-3">
         <h1>
-          Amirreza <span class="light-blue--text text--lighten-3">Nasiri</span>
+          Albanys<span class="light-blue--text text--lighten-3">Correa</span>
         </h1>
         <span>
-          A challenge-loving web developer
+          Especialista en Marketing Digital
         </span>
       </div>
 
@@ -79,22 +79,17 @@ export default {
             {
               name: 'Email',
               icon: 'mdi-email',
-              text: 'hi@amirreza.in',
+              text: 'correaalbanys@gmail.com',
             },
             {
               name: 'Website',
               icon: 'mdi-web',
-              text: 'amirreza.in',
-            },
-            {
-              name: 'Birth Date',
-              icon: 'mdi-cake-variant',
-              text: 'Dec 7, 1996',
+              text: 'https://albanyscorrea.vercel.app/',
             },
             {
               name: 'Habitation',
               icon: 'mdi-map-marker',
-              text: 'Tabriz, Iran',
+              text: 'Buenos Aires, Argentina',
             },
           ],
         },
@@ -102,24 +97,14 @@ export default {
           title: 'SOCIALS',
           items: [
             {
-              icon: 'mdi-github-circle',
-              text: 'github.com/AmirrezaNasiri',
-              link: 'https://github.com/AmirrezaNasiri',
-            },
-            {
               icon: 'mdi-linkedin-box',
-              text: 'linkedin.com/in/amirreza-nasiri',
-              link: 'https://linkedin.com/in/amirreza-nasiri',
+              text: 'linkedin.com/in/albanyscorrea',
+              link: 'https://www.linkedin.com/in/albanyscorrea/',
             },
             {
-              icon: 'mdi-twitter',
+              icon: 'mdi-behance',
               text: 'twitter.com/Amirreza_Nasiri',
-              link: 'https://twitter.com/Amirreza_Nasiri',
-            },
-            {
-              icon: 'mdi-instagram',
-              text: 'instagram.com/amirreza.n96',
-              link: 'https://instagram.com/amirreza.n96',
+              link: 'https://www.behance.net/albanyscorrea',
             },
           ],
         },
@@ -144,32 +129,24 @@ export default {
               text: 'Nature',
             },
             {
-              icon: 'mdi-auto-fix',
-              text: 'Hacking Stuffs',
-            },
-            {
               icon: 'mdi-teach',
               text: 'Teaching',
             },
             {
               icon: 'mdi-karate',
-              text: 'Sports',
+              text: 'Running',
             },
             {
               icon: 'mdi-music',
               text: 'Music',
             },
             {
-              icon: 'mdi-account-group',
-              text: 'Leadership',
-            },
-            {
               icon: 'mdi-book-open-page-variant',
               text: 'Books',
             },
             {
-              icon: 'mdi-android-debug-bridge',
-              text: 'Tickling Bugs!',
+              icon: 'mdi-dog',
+              text: 'Play with my Little Dog',
             },
           ],
         },
@@ -177,20 +154,12 @@ export default {
           title: 'LANGUAGES',
           items: [
             {
+              text : 'Español',
+              value: 100,
+            },
+            {
               text : 'English',
-              value: 70,
-            },
-            {
-              text : 'Turkish',
-              value: 45,
-            },
-            {
-              text : 'Azeri',
-              value: 100,
-            },
-            {
-              text : 'Persian',
-              value: 100,
+              value: 60,
             },
           ],
         },
